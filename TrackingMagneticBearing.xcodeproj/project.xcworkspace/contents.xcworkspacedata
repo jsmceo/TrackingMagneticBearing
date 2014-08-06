@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:5-1.xcodeproj">
+      location = "self:TrackingMagneticBearing.xcodeproj">
    </FileRef>
 </Workspace>

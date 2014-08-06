@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0577272C19150F7D0000357F"
-               BuildableName = "5-1.app"
-               BlueprintName = "5-1"
-               ReferencedContainer = "container:5-1.xcodeproj">
+               BuildableName = "TrackingMagneticBearing.app"
+               BlueprintName = "TrackingMagneticBearing"
+               ReferencedContainer = "container:TrackingMagneticBearing.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0577274D19150F7D0000357F"
-               BuildableName = "5-1Tests.xctest"
-               BlueprintName = "5-1Tests"
-               ReferencedContainer = "container:5-1.xcodeproj">
+               BuildableName = "TrackingMagneticBearingTests.xctest"
+               BlueprintName = "TrackingMagneticBearingTests"
+               ReferencedContainer = "container:TrackingMagneticBearing.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0577272C19150F7D0000357F"
-            BuildableName = "5-1.app"
-            BlueprintName = "5-1"
-            ReferencedContainer = "container:5-1.xcodeproj">
+            BuildableName = "TrackingMagneticBearing.app"
+            BlueprintName = "TrackingMagneticBearing"
+            ReferencedContainer = "container:TrackingMagneticBearing.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0577272C19150F7D0000357F"
-            BuildableName = "5-1.app"
-            BlueprintName = "5-1"
-            ReferencedContainer = "container:5-1.xcodeproj">
+            BuildableName = "TrackingMagneticBearing.app"
+            BlueprintName = "TrackingMagneticBearing"
+            ReferencedContainer = "container:TrackingMagneticBearing.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0577272C19150F7D0000357F"
-            BuildableName = "5-1.app"
-            BlueprintName = "5-1"
-            ReferencedContainer = "container:5-1.xcodeproj">
+            BuildableName = "TrackingMagneticBearing.app"
+            BlueprintName = "TrackingMagneticBearing"
+            ReferencedContainer = "container:TrackingMagneticBearing.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

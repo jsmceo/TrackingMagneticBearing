@@ -21,6 +21,7 @@
 		0577275219150F7D0000357F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0577273419150F7D0000357F /* UIKit.framework */; };
 		0577275A19150F7D0000357F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0577275819150F7D0000357F /* InfoPlist.strings */; };
 		0577275C19150F7D0000357F /* __1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0577275B19150F7D0000357F /* __1Tests.m */; };
+		0577276619150F910000357F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0577276519150F910000357F /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0577272D19150F7D0000357F /* 5-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0577272D19150F7D0000357F /* TrackingMagneticBearing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingMagneticBearing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0577273019150F7D0000357F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0577273219150F7D0000357F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0577273419150F7D0000357F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		0577273819150F7D0000357F /* 5-1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "5-1-Info.plist"; sourceTree = "<group>"; };
+		0577273819150F7D0000357F /* TrackingMagneticBearing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackingMagneticBearing-Info.plist"; sourceTree = "<group>"; };
 		0577273A19150F7D0000357F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0577273C19150F7D0000357F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0577273E19150F7D0000357F /* 5-1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5-1-Prefix.pch"; sourceTree = "<group>"; };
+		0577273E19150F7D0000357F /* TrackingMagneticBearing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackingMagneticBearing-Prefix.pch"; sourceTree = "<group>"; };
 		0577273F19150F7D0000357F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0577274019150F7D0000357F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0577274319150F7D0000357F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0577274519150F7D0000357F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0577274619150F7D0000357F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0577274819150F7D0000357F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0577274E19150F7D0000357F /* 5-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0577274E19150F7D0000357F /* TrackingMagneticBearingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingMagneticBearingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0577274F19150F7D0000357F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		0577275719150F7D0000357F /* 5-1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "5-1Tests-Info.plist"; sourceTree = "<group>"; };
+		0577275719150F7D0000357F /* TrackingMagneticBearingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackingMagneticBearingTests-Info.plist"; sourceTree = "<group>"; };
 		0577275919150F7D0000357F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0577275B19150F7D0000357F /* __1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __1Tests.m; sourceTree = "<group>"; };
+		0577276519150F910000357F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0577276619150F910000357F /* CoreLocation.framework in Frameworks */,
 				0577273319150F7D0000357F /* CoreGraphics.framework in Frameworks */,
 				0577273519150F7D0000357F /* UIKit.framework in Frameworks */,
 				0577273119150F7D0000357F /* Foundation.framework in Frameworks */,
@@ -82,7 +85,7 @@
 		0577272419150F7D0000357F = {
 			isa = PBXGroup;
 			children = (
-				0577273619150F7D0000357F /* 5-1 */,
+				0577273619150F7D0000357F /* TrackingMagneticBearing */,
 				0577275519150F7D0000357F /* 5-1Tests */,
 				0577272F19150F7D0000357F /* Frameworks */,
 				0577272E19150F7D0000357F /* Products */,
@@ -92,8 +95,8 @@
 		0577272E19150F7D0000357F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0577272D19150F7D0000357F /* 5-1.app */,
-				0577274E19150F7D0000357F /* 5-1Tests.xctest */,
+				0577272D19150F7D0000357F /* TrackingMagneticBearing.app */,
+				0577274E19150F7D0000357F /* TrackingMagneticBearingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +104,7 @@
 		0577272F19150F7D0000357F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0577276519150F910000357F /* CoreLocation.framework */,
 				0577273019150F7D0000357F /* Foundation.framework */,
 				0577273219150F7D0000357F /* CoreGraphics.framework */,
 				0577273419150F7D0000357F /* UIKit.framework */,
@@ -109,7 +113,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0577273619150F7D0000357F /* 5-1 */ = {
+		0577273619150F7D0000357F /* TrackingMagneticBearing */ = {
 			isa = PBXGroup;
 			children = (
 				0577273F19150F7D0000357F /* AppDelegate.h */,
@@ -120,16 +124,17 @@
 				0577274819150F7D0000357F /* Images.xcassets */,
 				0577273719150F7D0000357F /* Supporting Files */,
 			);
+			name = TrackingMagneticBearing;
 			path = "5-1";
 			sourceTree = "<group>";
 		};
 		0577273719150F7D0000357F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0577273819150F7D0000357F /* 5-1-Info.plist */,
+				0577273819150F7D0000357F /* TrackingMagneticBearing-Info.plist */,
 				0577273919150F7D0000357F /* InfoPlist.strings */,
 				0577273C19150F7D0000357F /* main.m */,
-				0577273E19150F7D0000357F /* 5-1-Prefix.pch */,
+				0577273E19150F7D0000357F /* TrackingMagneticBearing-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +151,7 @@
 		0577275619150F7D0000357F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0577275719150F7D0000357F /* 5-1Tests-Info.plist */,
+				0577275719150F7D0000357F /* TrackingMagneticBearingTests-Info.plist */,
 				0577275819150F7D0000357F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0577272C19150F7D0000357F /* 5-1 */ = {
+		0577272C19150F7D0000357F /* TrackingMagneticBearing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0577275F19150F7D0000357F /* Build configuration list for PBXNativeTarget "5-1" */;
+			buildConfigurationList = 0577275F19150F7D0000357F /* Build configuration list for PBXNativeTarget "TrackingMagneticBearing" */;
 			buildPhases = (
 				0577272919150F7D0000357F /* Sources */,
 				0577272A19150F7D0000357F /* Frameworks */,
@@ -167,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = "5-1";
+			name = TrackingMagneticBearing;
 			productName = "5-1";
-			productReference = 0577272D19150F7D0000357F /* 5-1.app */;
+			productReference = 0577272D19150F7D0000357F /* TrackingMagneticBearing.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0577274D19150F7D0000357F /* 5-1Tests */ = {
+		0577274D19150F7D0000357F /* TrackingMagneticBearingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0577276219150F7D0000357F /* Build configuration list for PBXNativeTarget "5-1Tests" */;
+			buildConfigurationList = 0577276219150F7D0000357F /* Build configuration list for PBXNativeTarget "TrackingMagneticBearingTests" */;
 			buildPhases = (
 				0577274A19150F7D0000357F /* Sources */,
 				0577274B19150F7D0000357F /* Frameworks */,
@@ -185,9 +190,9 @@
 			dependencies = (
 				0577275419150F7D0000357F /* PBXTargetDependency */,
 			);
-			name = "5-1Tests";
+			name = TrackingMagneticBearingTests;
 			productName = "5-1Tests";
-			productReference = 0577274E19150F7D0000357F /* 5-1Tests.xctest */;
+			productReference = 0577274E19150F7D0000357F /* TrackingMagneticBearingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0577272819150F7D0000357F /* Build configuration list for PBXProject "5-1" */;
+			buildConfigurationList = 0577272819150F7D0000357F /* Build configuration list for PBXProject "TrackingMagneticBearing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +222,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0577272C19150F7D0000357F /* 5-1 */,
-				0577274D19150F7D0000357F /* 5-1Tests */,
+				0577272C19150F7D0000357F /* TrackingMagneticBearing */,
+				0577274D19150F7D0000357F /* TrackingMagneticBearingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +273,7 @@
 /* Begin PBXTargetDependency section */
 		0577275419150F7D0000357F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0577272C19150F7D0000357F /* 5-1 */;
+			target = 0577272C19150F7D0000357F /* TrackingMagneticBearing */;
 			targetProxy = 0577275319150F7D0000357F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -377,9 +382,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "5-1/5-1-Prefix.pch";
-				INFOPLIST_FILE = "5-1/5-1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "5-1/TrackingMagneticBearing-Prefix.pch";
+				INFOPLIST_FILE = "5-1/TrackingMagneticBearing-Info.plist";
+				PRODUCT_NAME = TrackingMagneticBearing;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,9 +395,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "5-1/5-1-Prefix.pch";
-				INFOPLIST_FILE = "5-1/5-1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "5-1/TrackingMagneticBearing-Prefix.pch";
+				INFOPLIST_FILE = "5-1/TrackingMagneticBearing-Info.plist";
+				PRODUCT_NAME = TrackingMagneticBearing;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -412,8 +417,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "5-1Tests/5-1Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "5-1Tests/TrackingMagneticBearingTests-Info.plist";
+				PRODUCT_NAME = TrackingMagneticBearingTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -430,8 +435,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "5-1/5-1-Prefix.pch";
-				INFOPLIST_FILE = "5-1Tests/5-1Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "5-1Tests/TrackingMagneticBearingTests-Info.plist";
+				PRODUCT_NAME = TrackingMagneticBearingTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0577272819150F7D0000357F /* Build configuration list for PBXProject "5-1" */ = {
+		0577272819150F7D0000357F /* Build configuration list for PBXProject "TrackingMagneticBearing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0577275D19150F7D0000357F /* Debug */,
@@ -449,21 +454,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0577275F19150F7D0000357F /* Build configuration list for PBXNativeTarget "5-1" */ = {
+		0577275F19150F7D0000357F /* Build configuration list for PBXNativeTarget "TrackingMagneticBearing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0577276019150F7D0000357F /* Debug */,
 				0577276119150F7D0000357F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0577276219150F7D0000357F /* Build configuration list for PBXNativeTarget "5-1Tests" */ = {
+		0577276219150F7D0000357F /* Build configuration list for PBXNativeTarget "TrackingMagneticBearingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0577276319150F7D0000357F /* Debug */,
 				0577276419150F7D0000357F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
